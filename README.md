@@ -1421,7 +1421,7 @@ Library.SizeLibrary = {
 Library.Theme = {}
 
 Library.Colors = {
-	Hightlight = Color3.fromRGB(0, 255, 255),
+	Hightlight = Color3.new(1.000000, 0.000000, 0.000000),
 	Default = Color3.fromRGB(32, 33, 36),
 	Disable = Color3.fromRGB(167, 173, 188),
 	TextColor = Color3.fromRGB(220, 224, 234),
@@ -1536,14 +1536,7 @@ function Library.Theme:Christmas()
 		TextColor = Color3.fromRGB(249, 249, 249),
 	}
 end
-function Library.Theme:Summer()
-	Library.Colors = {
-		Hightlight = Color3.fromRGB(255, 199, 44),
-		Default = Color3.fromRGB(255, 243, 176),   
-		Disable = Color3.fromRGB(200, 200, 200),  
-		TextColor = Color3.fromRGB(30, 30, 30), 
-	}
-end
+
 function Library.Theme:Random()
 	local RNG = Random.new();
 
